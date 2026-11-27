@@ -1,12 +1,12 @@
 /* Board-Tong 독립 스마트 판서 보드 서비스 워커 */
-var CACHE_VERSION = 'board-tong-v2.7.5';
+var CACHE_VERSION = 'board-tong-v2.8.0';
 var CACHE_NAME = 'board-tong-' + CACHE_VERSION;
 
 var PRECACHE = [
   './',
   './index.html',
-  './smart-board.css?v=2.7.5',
-  './smart-board.js?v=2.7.5',
+  './smart-board.css?v=2.8.0',
+  './smart-board.js?v=2.8.0',
   './smart-board-guide.html',
   './manifest.webmanifest',
   './icon.svg',
