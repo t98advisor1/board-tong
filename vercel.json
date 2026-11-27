@@ -1,0 +1,11 @@
+{
+  "cleanUrls": false,
+  "headers": [
+    {
+      "source": "/(index\\.html|smart-board\\.html|smart-board-guide\\.html|smart-board\\.js|smart-board\\.css|sw\\.js|manifest\\.webmanifest)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, must-revalidate" }
+      ]
+    }
+  ]
+}

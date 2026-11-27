@@ -4270,7 +4270,7 @@
         var raw = 'smartboard:' + mp.year + '-' + mp.month + '-' + mp.day + ':' + vid;
         var hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(raw));
         var token = Array.from(new Uint8Array(hash)).map(function (x) { return x.toString(16).padStart(2, '0'); }).join('');
-        var usageEndpoint = /\.github\.io$/i.test(h0) ? 'https://t-ong.vercel.app/api/usage' : '/api/usage';
+        var usageEndpoint = !/^(t-ong|neis-help)\./i.test(h0) ? 'https://t-ong.vercel.app/api/usage' : '/api/usage';
         var res = await fetch(usageEndpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ visitorToken: token, scope: 'smartboard' }), cache: 'no-store' });
         if (!res.ok) throw new Error('usage ' + res.status);
         var data = await res.json();

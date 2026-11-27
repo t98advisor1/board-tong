@@ -2,7 +2,8 @@
 
 교실 전자칠판·갤럭시탭·아이패드·PC에서 설치 없이 바로 여는 전체화면 수업용 스마트 판서 웹앱입니다.
 
-- **바로 실행**: https://t98advisor1.github.io/board-tong/
+- **메인 실행 주소 (GitHub 우선)**: https://t98advisor1.github.io/board-tong/
+- **간편 직접 접속 주소 (Vercel)**: https://smarttong.vercel.app/
 - **사용설명서**: https://t98advisor1.github.io/board-tong/smart-board-guide.html
 
 ## 주요 기능
