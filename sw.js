@@ -1,5 +1,5 @@
 /* Board-Tong 독립 스마트 판서 보드 서비스 워커 */
-var CACHE_VERSION = 'board-tong-v2.8.5';
+var CACHE_VERSION = 'board-tong-v2.8.6';
 var CACHE_NAME = 'board-tong-' + CACHE_VERSION;
 
 var PRECACHE = [
